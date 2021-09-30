@@ -1,0 +1,63 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* top-bacground-image */
+#welcome-section{
+    top: 0%;
+    background-image: url("../Images/sean-foley-kMpbE_-jCeI-unsplash.jpg");
+    background-color: rgba(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.432), 25);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 150px;
+}
+
+#navbar{
+    padding-top: 1px;
+}
+
+.body-title{
+    font-size: 9em;
+    color: rgba(164, 186, 226, 0.863);
+    font-family: fantasy;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    color: rgb(209, 192, 195);
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+.nav a:hover{
+    background-color: rgba(0, 255, 255, 0.2);
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    font-family: fantasy;
+    padding: 0em;
+}
+
+.nav{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    margin: 1px;
+    text-align: left;
+}
