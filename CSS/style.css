@@ -61,3 +61,28 @@ html, body{
     margin: 1px;
     text-align: left;
 }
+
+.header-picture{
+
+background-image: url(Images\sci-fi town.jpg);
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.main-foot-container{
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-nav{
+    padding: 0.5em;
+}
+
+.main-footer{
+    background-color: rgb(28, 61, 207);
+    padding: .25em 0;
+}
