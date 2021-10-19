@@ -1,88 +1,68 @@
-html, body{
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
     margin: 0;
     padding: 0;
-}
-
-
-/* top-bacground-image */
-#welcome-section{
-    top: 0%;
-    background-image: url("../Images/sean-foley-kMpbE_-jCeI-unsplash.jpg");
-    background-color: rgba(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.432), 25);
-    background-blend-mode: multiply;
-    background-size: cover;
-    padding: 150px;
-}
-
-#navbar{
-    padding-top: 1px;
-}
-
-.body-title{
-    font-size: 9em;
-    color: rgba(164, 186, 226, 0.863);
-    font-family: fantasy;
-    font-weight: lighter;
-    text-align: left;
-}
-
-.nav ul{
-    margin: 0;
-}
-
-.nav li{
-    display: inline;
-}
-
-.nav a{
-    display: inline-block;
-    color: rgb(209, 192, 195);
+    box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5em;
+
 }
 
-.nav a:hover{
-    background-color: rgba(0, 255, 255, 0.2);
+#welcome-section{
+    
+     background-image: url("../Images/sci-fi\ town.jpg");
+     background-color: rgba(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.432), 25);
+     background-blend-mode:multiply; 
+    
+     padding: 150px;
+     margin-bottom: 30px; 
+
+} 
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
 }
 
-.main-nav{
-    text-align: center;
-    font-size: 1.3em;
-    font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
-    font-family: fantasy;
-    padding: 0em;
-}
+/* navbar styling */
 
-.nav{
-    top: 0;
+.navbar{
     position: fixed;
     width: 100%;
-    margin: 1px;
-    text-align: left;
+    padding: 15px 0;
+    background: #55d6aa;
+    font-family: 'Ubuntu', sans-serif;
 }
-
-.header-picture{
-
-background-image: url(Images\sci-fi town.jpg);
-}
-
-.container{
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1.5em;
-}
-.main-foot-container{
+.navbar .max-width{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 
-.footer-nav{
-    padding: 0.5em;
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
 }
 
-.main-footer{
-    background-color: rgb(28, 61, 207);
-    padding: .25em 0;
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+/* home section styling */
+
+.home{
+    display: flex;
+    background: url("Images/sci-fi town.jpg")
+    height: 100vh;
 }
