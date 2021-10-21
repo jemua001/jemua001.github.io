@@ -9,14 +9,14 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     </head>
-
+                    <!--HTML: Første navnet til filen til html nettsiden skal være index-->
     <body>
         <nav class="navbar"> <!--Class blir brukt til style.css og du linker dene classenmed den som står på stylesheeten-->
                 <div class="max-width">
                     <div class="logo"><a href="#">Portf<span>olio.</span></a></div>
 
                     <ul class="menu"> <!--uordnet liste-->
-                        <li><a href="#home">Home</a></li>
+                        <li><a href="#home">Home</a></li> <!--Dette brukes for å legge liste i ul og ol-->
                         <li><a href="#about">About</a></li>
                         <li><a href="#project">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -24,13 +24,14 @@
 
                     <div class="menu-btn">
                         <i class="fas fa-bars"></i>
-                    </div>
-                </div>
+                    </div> 
+                </div> <!--div betyr ingenting for nettsiden, men betyr noe hvis du endrer classen-->
         </nav>
 
             <!-- home section here -->
+        <div id="home">
             <section class="home" id="welcome-section" > <!--Id linker den id'en du har på ccs her, du kan ikke ha mer en element med samme id-->
-                <div class="max-width">
+                <div class="max-width" id="">
                     <div class="home-content">
                         <div class="text-1">Hi, <span2>my</span2> name is</div>
                         <div class="text-2">Jenakan</div>
@@ -38,7 +39,7 @@
                     </div>
                 </div>
             </section>
-
+        </div>
             <!-- about section here -->
 
             <section class="about" id="about"> <!--Padding er rom mellom et element sitt innhold og grense-->
@@ -51,7 +52,7 @@
                         <div class="column right">
                             <div class="text">My name is Jenakan and I'm lear<span>ning coding</span> </div>
                             <div class="text1"> <span> name is Jenakan and I live in Stovner i Oslo. I'm currently going on Kuben vgs and i'm learning about html and css. In my other subject I'm learning about Arduino.</span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate soluta dolorum inventore blanditiis aliquid cumque id molestiae, harum culpa sint ullam excepturi animi quas est ab quisquam porro aperiam eligendi ex ea corporis dolore at doloribus! Modi, possimus. Eveniet eligendi consequuntur voluptas laudantium quis. Consequuntur quasi earum tenetur. Consequuntur modi assumenda omnis recusandae eum laboriosam expedita excepturi, cupiditate nisi eos?
-
+                                    <!--Lorem brukes for å lage en random teks, brukes for testing.-->
                                 <a href=""></a>
                         </div>
                     </div>
