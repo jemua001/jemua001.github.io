@@ -130,7 +130,7 @@ html{
 /* about section styling here */
 
 section{
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 .about{
@@ -217,6 +217,7 @@ section{
 
 .project-tile{
     background-color: darkgray;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .project-tile .title{
@@ -230,7 +231,7 @@ section{
 }
 
 .project-tile .title::before{
-    content: "";
+    content: "  ";
     position: absolute;
     bottom: 0px;
     left: 50%;
@@ -264,6 +265,62 @@ section{
     object-fit: cover;
     border-radius: 6px;
 }
+
+.project-two{
+
+    padding-top: 50px;
+
+}
+
+.project-tile .title1{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.project-tile .project-content .left1{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.text1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.project-tile .project-content .right{
+
+    width: 55%;
+}
+
+.project-tile .project-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-tile .project-content .left{
+    width: 45%;
+}
+
+.project-tile .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+
+
 
 
 
