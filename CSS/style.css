@@ -70,6 +70,10 @@ html{
     color: crimson;
 }
 
+.navbar .menu li a span{
+    color: black;
+}
+
 /* menu btn styling */
 
 .menu-btn{
@@ -212,11 +216,14 @@ section{
 .about .about-content .right .text1 span{
     color: rgb(62, 17, 223);
 }
+.about .about-content .right .text span{
+    color: rgb(62, 17, 223);
+}
 
 /* Projects section styling here */
 
 .project-tile{
-    background-color: darkgray;
+    background-color: #352ace;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -250,49 +257,18 @@ section{
     font-size: 20px;
     color: crimson;
     padding: 5px;
-    background: darkgray;
+    background: #352ace;
     transform: translate(-50%);
 
 }
 
-.about .about-content .right .text span{
-    color: rgb(62, 17, 223);
-}
+
 
 .project-tile .project-content .left img{
     height: 400px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
-}
-
-.project-two{
-
-    padding-top: 50px;
-
-}
-
-.project-tile .title1{
-    position: relative;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.project-tile .project-content .left1{
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 100px;
-}
-
-.text1{
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 10px;
 }
 
 .project-tile .project-content .right{
@@ -318,6 +294,128 @@ section{
     border-radius: 6px;
 }
 
+/* Project 2/ Arduino lcd*/
+
+
+.project-tile .project-two .left1{
+    width: 45%;
+}
+
+.project-tile .project-two .left1 img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text1{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.project-tile .project-two .right{
+
+    width: 55%;
+}
+
+.project-tile .project-two{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-tile .title1{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 0px;
+    padding-bottom: 100px;
+
+    text-align: center;
+}
+
+.project-tile .text1 .Color{
+    color: rgba(238, 238, 15, 0.897);
+
+}
+
+
+
+
+
+
+/* Utplassering*/
+
+.pic{
+    display: flex;
+    background: url("Images/Lydmikser.jpg") no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(3, 3, 3);
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+
+section{
+    padding: 40px 0;
+}
+
+.section1{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.title1{
+
+    text-align: center;
+    padding-block: 50px;
+}
+
+.section2{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left1{
+    width: 25%;
+}
+
+.right1{
+    width: 70%;
+}
+
+.section2 .about-content .text1{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.project-two{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.project-two .left1 img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
 
 
 
@@ -338,7 +436,9 @@ section{
 
 
 /* responsive media query here */
+
 @media (max-width: 1104px){
+
     .home .max-width{
         margin-left: 0px;
     }
