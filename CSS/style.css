@@ -351,12 +351,12 @@ section{
 
 .pic{
     display: flex;
-    background: url("Images/Lydmikser.jpg") no-repeat center;
-    height: 100vh;
+    background-color: #f10b0b;
+    height: 10vh;   
     background-size: cover;
     background-attachment: fixed;
     color: rgb(3, 3, 3);
-    min-height: 500px;
+    min-height: 400px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
 }
